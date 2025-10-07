@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+/* Optional: CSS variables / theme tokens (Tailwind v4 supports @theme) */
+@theme {
+--color-brand: #0ea5e9; /* sky-500 */
+--color-ink: #0b1220;
+}
+
+
+/* Small helpers */
+:root { color-scheme: light dark; }
